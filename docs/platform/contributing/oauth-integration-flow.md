@@ -72,7 +72,7 @@ This document focuses on the **API Integration OAuth flow** used for connecting 
   - `GET /{provider}/login` - Initiates OAuth flow
   - `POST /{provider}/callback` - Exchanges auth code for tokens
   - `GET /credentials` - Lists user credentials
-  - `DELETE /{provider}/credentials/{id}` - Revokes credentials
+  - `GET /{provider}/credentials` - Lists user credentials for the provider
 
 #### 2. OAuth Base Handler
 - **Purpose**: Abstract base class for provider-specific OAuth implementations
@@ -356,7 +356,7 @@ stateDiagram-v2
 - **Code Verifier**: Random string generated using `secrets.token_urlsafe(128)` (approximately 171 characters when base64url encoded, though RFC 7636 recommends 43-128 characters)
 - **Code Challenge**: SHA256 hash of verifier, base64url encoded
 - **Storage**: Stored with state token in database (encrypted) with 10-minute expiration
-- **Usage**: Enhanced security for public clients (currently used by Twitter provider)
+- **Storage**: Stored with state token in Redis with 10-minute expiration
 
 ### 3. Credential Storage
 
