@@ -111,7 +111,7 @@ Save the returned next_cursor for subsequent calls to implement continuous incre
 | new_items | Items added since the cursor | List[WebsetItemModel] |
 | item | Individual item (yielded for each new item) | WebsetItemModel |
 | count | Number of new items found | int |
-| next_cursor | Save this cursor for the next run to get only newer items | str |
+| next_cursor | Save this cursor for the next run to get only newer items | Optional[str] |
 | has_more | Whether there are more new items beyond max_items | bool |
 
 ### Possible use case
@@ -200,7 +200,7 @@ Use pagination cursors to iterate through large websets efficiently. Each page r
 | webset_id | The ID of the webset | str |
 | item | Individual item (yielded for each item in the list) | WebsetItemModel |
 | has_more | Whether there are more items to paginate through | bool |
-| next_cursor | Cursor for the next page of results | str |
+| next_cursor | Cursor for the next page of results | Optional[str] |
 
 ### Possible use case
 <!-- MANUAL: use_case -->

@@ -20,7 +20,7 @@ The block connects to Pinterest's API through Ayrshare, allowing you to specify 
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
 | post | Pin description (max 500 chars, links not clickable - use link field instead) | str | No |
-| media_urls | Required image/video URLs. Pinterest requires at least one image. Videos need thumbnail. Up to 5 images for carousel. | List[str] | No |
+| media_urls | Image/video URLs. Pinterest requires at least one image. Videos need thumbnail. Up to 5 images for carousel. | List[str] | No |
 | is_video | Whether the media is a video | bool | No |
 | schedule_date | UTC datetime for scheduling (YYYY-MM-DDThh:mm:ssZ) | str (date-time) | No |
 | disable_comments | Whether to disable comments | bool | No |
@@ -34,7 +34,7 @@ The block connects to Pinterest's API through Ayrshare, allowing you to specify 
 | link | Clickable destination URL when users click the pin (max 2048 chars) | str | No |
 | board_id | Pinterest Board ID to post to (from /user/details endpoint, uses default board if not specified) | str | No |
 | note | Private note for the pin (only visible to you and board collaborators) | str | No |
-| thumbnail | Required thumbnail URL for video pins (must have valid image Content-Type) | str | No |
+| thumbnail | Thumbnail URL for video pins (must have valid image Content-Type) | str | No |
 | carousel_options | Options for each image in carousel (title, link, description per image) | List[PinterestCarouselOption] | No |
 | alt_text | Alt text for each image/video (max 500 chars each, accessibility feature) | List[str] | No |
 

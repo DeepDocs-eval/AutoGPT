@@ -18,7 +18,7 @@ _Add technical explanation here._
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
 | post | Video description (max 5,000 chars, empty string allowed). Cannot contain < or > characters. | str | Yes |
-| media_urls | Required video URL. YouTube only supports 1 video per post. | List[str] | No |
+| media_urls | Video URL. YouTube only supports 1 video per post. | List[str] | No |
 | is_video | Whether the media is a video | bool | No |
 | schedule_date | UTC datetime for scheduling (YYYY-MM-DDThh:mm:ssZ) | str (date-time) | No |
 | disable_comments | Whether to disable comments | bool | No |

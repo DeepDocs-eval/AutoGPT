@@ -20,11 +20,11 @@ The block uses MoviePy's TextClip and CompositeVideoClip to render text onto vid
 | video_in | Input video (URL, data URI, or local path) | str (file) | Yes |
 | text | Text to overlay on video | str | Yes |
 | position | Position of text on screen | "top" \| "center" \| "bottom" \| "top-left" \| "top-right" \| "bottom-left" \| "bottom-right" | No |
-| start_time | When to show text (seconds). None = entire video | float | No |
-| end_time | When to hide text (seconds). None = until end | float | No |
+| start_time | When to show text (seconds). None = entire video | float \| None | No |
+| end_time | When to hide text (seconds). None = until end | float \| None | No |
 | font_size | Font size | int | No |
 | font_color | Font color (hex or name) | str | No |
-| bg_color | Background color behind text (None for transparent) | str | No |
+| bg_color | Background color behind text (None for transparent) | str \| None | No |
 
 ### Outputs
 

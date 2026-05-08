@@ -80,7 +80,7 @@ Connects to Todoist API to retrieve sections list.
 
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
-| project_id | Optional project ID to filter sections | str | Yes |
+| project_id | Optional project ID to filter sections | str | No |
 
 ### Outputs
 

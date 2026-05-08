@@ -358,8 +358,8 @@ poetry run pytest -s
 
 To add a new agent block, you need to create a new class that inherits from `Block` and provides the following information:
 * All the block code should live in the `blocks` (`backend.blocks`) module.
-* `input_schema`: the schema of the input data, represented by a Pydantic object.
-* `output_schema`: the schema of the output data, represented by a Pydantic object.
+* `input_schema`: the schema of the input data, represented by a Pydantic model class.
+* `output_schema`: the schema of the output data, represented by a Pydantic model class.
 * `run` method: the main logic of the block.
 * `test_input` & `test_output`: the sample input and output data for the block, which will be used to auto-test the block.
 * You can mock the functions declared in the block using the `test_mock` field for your unit tests.

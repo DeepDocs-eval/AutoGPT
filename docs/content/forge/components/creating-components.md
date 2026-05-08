@@ -180,9 +180,8 @@ It gives an ability for the agent to ask user for input in the terminal.
 5. Since agent isn't always running in the terminal or interactive mode, we need to disable this component by setting `self._enabled=False` when it's not possible to ask for user input.
 
     ```py
-    def __init__(self, interactive_mode: bool):
-        self.config = config
-        self._enabled = interactive_mode
+def __init__(self, interactive_mode: bool):
+    self._enabled = interactive_mode
     ```
 
 The final component should look like this:

@@ -13,7 +13,7 @@ The block connects to Google Sheets using provided credentials, then fetches dat
 | Input | Description |
 |-------|-------------|
 | Credentials | Authentication information required to access Google Sheets |
-| Spreadsheet ID | The unique identifier of the spreadsheet you want to read from |
+| Spreadsheet | The Google Sheets spreadsheet you want to read from |
 | Range | The specific area of the spreadsheet you want to read (e.g., "Sheet1!A1:B2") |
 
 ### Outputs
@@ -42,7 +42,7 @@ The block authenticates with Google Sheets using provided credentials, then upda
 | Input | Description |
 |-------|-------------|
 | Credentials | Authentication information required to access Google Sheets |
-| Spreadsheet ID | The unique identifier of the spreadsheet you want to write to |
+| Spreadsheet | The Google Sheets spreadsheet you want to write to |
 | Range | The specific area of the spreadsheet where you want to write data (e.g., "Sheet1!A1:B2") |
 | Values | The data you want to write to the spreadsheet, organized in rows and columns |
 

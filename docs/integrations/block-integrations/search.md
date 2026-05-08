@@ -42,7 +42,7 @@ This block searches for local businesses using Google Maps API.
 <!-- MANUAL: how_it_works -->
 This block uses the Google Maps Places API to search for businesses and locations based on a query. Configure radius (up to 50km) to limit the search area and max_results (up to 60) to control how many places are returned.
 
-Each place result includes name, address, rating, reviews, and geographic coordinates for integration with mapping or navigation workflows.
+Each place result includes name, address, phone, rating, review count, and website (if available) for integration with mapping or navigation workflows.
 <!-- END MANUAL -->
 
 ### Inputs

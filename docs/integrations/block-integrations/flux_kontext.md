@@ -17,7 +17,7 @@ The block sends your prompt, image, and settings to the selected Flux Kontext mo
 | Input Image  | (Optional) Reference image URI (jpeg, png, gif, webp)                      |
 | Aspect Ratio | Aspect ratio of the generated image (e.g. match_input_image, 1:1, 16:9, etc.) |
 | Seed         | (Optional, advanced) Random seed for reproducible generation                |
-| Model        | Model variant to use: Flux Kontext Pro or Flux Kontext Max                  |
+| Model        | Model variant to use                      |
 
 ## Outputs
 | Output     | Description                              |

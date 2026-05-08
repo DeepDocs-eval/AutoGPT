@@ -28,7 +28,7 @@ When you specify guests, they receive email invitations (if notifications are en
 | send_notifications | Send email notifications to guests | bool | No |
 | add_google_meet | Include a Google Meet video conference link | bool | No |
 | recurrence | Whether the event repeats | Recurrence | No |
-| reminder_minutes | When to send reminders before the event | List[int] | No |
+| reminder_minutes | When to send reminders before the event | List[ReminderPreset] | No |
 
 ### Outputs
 

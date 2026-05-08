@@ -18,6 +18,6 @@ Is your AutoGPT Monitor getting cluttered or did you create an agent you no long
     * A confirmation dialog will appear asking "Are you sure you want to delete this agent?"
     * Click "Yes, delete" to confirm
 
-Once confirmed, the agent will be immediately removed from your list.
+Once confirmed, the agent will be soft-deleted and removed from your list.
 
-**Note**: This action cannot be undone, so make sure you want to permanently delete the agent before confirming.
+**Note**: This action performs a soft-delete, so make sure you want to remove the agent before confirming.
