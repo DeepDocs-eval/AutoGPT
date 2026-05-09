@@ -19,11 +19,12 @@ Optionally specify which Jina model to use for embedding generation.
 
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
-| texts | List of texts to embed | List[Any] | Yes |
+**Inputs
+| Parameter | Description | Type | Required |
+|-----------|-------------|------|----------|
+| query | Search query string | str | Yes |
 | model | Jina embedding model to use | str | No |
-
-### Outputs
-
+**Outputs
 | Output | Description | Type |
 |--------|-------------|------|
 | error | Error message if the operation failed | str |

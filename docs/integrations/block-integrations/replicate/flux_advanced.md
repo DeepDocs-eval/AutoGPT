@@ -19,7 +19,7 @@ The block takes a text prompt and several customization options as input. It the
 |-------|-------------|------|----------|
 | prompt | Text prompt for image generation | str | Yes |
 | replicate_model_name | The name of the Image Generation Model, i.e Flux Schnell | "Flux Schnell" \| "Flux Pro" \| "Flux Pro 1.1" | No |
-| seed | Random seed. Set for reproducible generation | int | No |
+| replicate_model_name | The name of the Image Generation Model (e.g., "Flux Schnell") | str | No |
 | steps | Number of diffusion steps | int | No |
 | guidance | Controls the balance between adherence to the text prompt and image quality/diversity. Higher values make the output more closely match the prompt but may reduce overall image quality. | float | No |
 | interval | Interval is a setting that increases the variance in possible outputs. Setting this value low will ensure strong prompt following with more consistent outputs. | float | No |

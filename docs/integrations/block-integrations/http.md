@@ -13,7 +13,7 @@ When activated, the block takes the provided URL, request method, headers, and b
 | Input | Description |
 |-------|-------------|
 | URL | The web address to which the request will be sent |
-| Method | The type of HTTP request (e.g., GET, POST, PUT). Default is POST |
+Method | The type of HTTP request (e.g., GET, POST, PUT). No default; must be specified.
 | Headers | Additional information sent with the request, such as authentication tokens or content type. This is optional |
 | Body | The main content of the request, typically used for sending data in POST or PUT requests. This is optional |
 

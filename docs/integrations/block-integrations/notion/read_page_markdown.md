@@ -26,7 +26,6 @@ The conversion preserves the document structure while making the content portabl
 
 | Output | Description | Type |
 |--------|-------------|------|
-| error | Error message if the operation failed | str |
 | markdown | Page content in Markdown format. | str |
 | title | Page title. | str |
 

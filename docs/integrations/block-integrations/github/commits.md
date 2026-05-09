@@ -20,7 +20,7 @@ Each commit entry includes the SHA, commit message, author name, date, and a URL
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
 | repo_url | URL of the GitHub repository | str | Yes |
-| branch | Branch name to list commits from | str | No |
+| credentials | GitHub credentials (OAuth token) | object | Yes |
 | per_page | Number of commits to return (max 100) | int | No |
 | page | Page number for pagination | int | No |
 

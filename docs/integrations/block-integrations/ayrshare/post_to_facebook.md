@@ -19,7 +19,7 @@ The block authenticates through Ayrshare and leverages the Meta Graph API to han
 
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
-| post | The post text to be published | str | No |
+| post | The post text to be published | str | Yes |
 | media_urls | Optional list of media URLs to include. Set is_video in advanced settings to true if you want to upload videos. | List[str] | No |
 | is_video | Whether the media is a video | bool | No |
 | schedule_date | UTC datetime for scheduling (YYYY-MM-DDThh:mm:ssZ) | str (date-time) | No |

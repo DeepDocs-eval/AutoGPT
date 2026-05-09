@@ -11,9 +11,9 @@
     * Navigate to the marketplace
     * Click the "Submit Agent" button
 2. **Select Your Agent**
-    * Use the dropdown menu to select your completed agent
+* Author name is automatically set from your account
 3. **Fill Out Required Information**
-    * Add a detailed description of your agent
+* No category selection required; submissions are categorized automatically
     * Enter the author name
     * Add at least one keyword to help users find your agent
     * Select the most relevant category for your agent
