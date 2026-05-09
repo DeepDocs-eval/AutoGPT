@@ -10,7 +10,7 @@ Block to attach an audio file to a video file using moviepy.
 
 ### How it works
 <!-- MANUAL: how_it_works -->
-The block uses MoviePy to combine video and audio files. It loads the video and audio inputs (which can be URLs, data URIs, or local paths), optionally scales the audio volume, then writes the combined result to a new video file using H.264 video codec and AAC audio codec.
+The block uses MoviePy to combine video and audio files. It loads the video and audio inputs (which can be URLs, data URIs, or local paths), optionally scales the audio volume, then writes the combined result to a new video file using the appropriate video and audio codecs based on the output format (e.g., H.264 + AAC for MP4, VP8 + Vorbis for WebM).
 <!-- END MANUAL -->
 
 ### Inputs

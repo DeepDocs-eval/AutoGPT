@@ -41,10 +41,10 @@ Optional expansions allow you to include additional data such as the user's pinn
 
 **User Research**: Gather information about a specific account for competitive analysis or influencer research.
 
-**Account Validation**: Verify that a username or user ID exists and is active before performing other operations.
-<!-- END MANUAL -->
-
----
+| username | User username | str |
+| name | User name | str |
+| data | Complete user data | Dict[str, Any] |
+| included | Additional data requested via expansions | Dict[str, Any] |
 
 ## Twitter Get Users
 

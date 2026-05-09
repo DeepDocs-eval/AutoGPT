@@ -148,7 +148,7 @@ You can limit the number of discussions retrieved with the num_discussions param
 | num_discussions | Number of discussions to fetch | int | No |
 
 ### Outputs
-
+| credentials | GitHub credentials (OAuth token) | object | Yes |
 | Output | Description | Type |
 |--------|-------------|------|
 | error | Error message if listing discussions failed | str |

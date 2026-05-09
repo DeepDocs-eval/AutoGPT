@@ -24,7 +24,7 @@ The block uses Tweepy with OAuth 2.0 authentication and supports expansions to i
 | user_fields | Choose what user information you want to see. This works when you select any of these in expansions above: - 'Creator' for Space creator details - 'Hosts' for host information - 'Speakers' for speaker details - 'Invited_Users' for invited user information | TweetUserFieldsFilter | No |
 | query | Search term to find in Space titles | str | Yes |
 | max_results | Maximum number of results to return (1-100) | int | No |
-| state | Type of Spaces to return (live, scheduled, or all) | "live" \| "scheduled" \| "all" | No |
+ | state | Type of Spaces to return (live, scheduled, or all) | "live" \\| "scheduled" \\| "all" | Yes |
 
 ### Outputs
 

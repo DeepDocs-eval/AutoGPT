@@ -15,16 +15,16 @@ This block creates a structured comment object that can be used with GitHub revi
 For review comments, only path, body, and position fields are used. The side, start_line, and start_side fields are only applicable for standalone PR comments, not review comments.
 <!-- END MANUAL -->
 
-### Inputs
+| review_id | ID of the pending review to submit (optional) | int | No |
 
 | Input | Description | Type | Required |
 |-------|-------------|------|----------|
 | path | The file path to comment on | str | Yes |
 | body | The comment text | str | Yes |
 | position | Position in the diff (line number from first @@ hunk). Use this OR line. | int | No |
-| line | Line number in the file (will be used as position if position not provided) | int | No |
-| side | Side of the diff to comment on (NOTE: Only for standalone comments, not review comments) | str | No |
-| start_line | Start line for multi-line comments (NOTE: Only for standalone comments, not review comments) | int | No |
+| side | Side of the diff to comment on (NOTE: Used for both standalone and review comments) | str | No |
+| start_line | Start line for multi-line comments (NOTE: Used for both standalone and review comments) | int | No |
+| start_side | Side for the start of multi-line comments (NOTE: Used for both standalone and review comments) | str | No |
 | start_side | Side for the start of multi-line comments (NOTE: Only for standalone comments, not review comments) | str | No |
 
 ### Outputs

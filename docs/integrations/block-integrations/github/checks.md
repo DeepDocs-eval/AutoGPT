@@ -65,7 +65,7 @@ You can update the status from queued to in_progress to completed, and set the f
 |-------|-------------|------|----------|
 | repo_url | URL of the GitHub repository | str | Yes |
 | check_run_id | The ID of the check run to update | int | Yes |
-| status | New status of the check run | "queued" \| "in_progress" \| "completed" \| "waiting" \| "requested" \| "pending" | Yes |
+| conclusion | The final conclusion of the check (required if status is completed) | "success" | ... | No |
 | conclusion | The final conclusion of the check (required if status is completed) | "success" \| "failure" \| "neutral" \| "cancelled" \| "timed_out" \| "action_required" \| "skipped" | Yes |
 | output_title | New title of the check run output | str | No |
 | output_summary | New summary of the check run output | str | No |

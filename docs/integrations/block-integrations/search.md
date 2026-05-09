@@ -47,12 +47,10 @@ Each place result includes name, address, rating, reviews, and geographic coordi
 
 ### Inputs
 
-| Input | Description | Type | Required |
-|-------|-------------|------|----------|
-| query | Search query for local businesses | str | Yes |
-| radius | Search radius in meters (max 50000) | int | No |
-| max_results | Maximum number of results to return (max 60) | int | No |
-
+**Request body:**
+- `query` (string, required): Search query for local businesses
+- `radius` (int, optional): Search radius in meters (max 50000)
+- `max_results` (int, optional): Maximum number of results to return (max 60)
 ### Outputs
 
 | Output | Description | Type |

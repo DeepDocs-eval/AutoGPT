@@ -15,14 +15,14 @@ This block uses the Telegram Bot API webhook system, subscribing to `message_rea
 
 ### Outputs
 
-| Output | Description | Type |
-|--------|-------------|------|
 | error | Error message if the operation failed | str |
 | payload | The complete webhook payload from Telegram | Dict[str, Any] |
 | chat_id | The chat ID where the reaction occurred | int |
 | message_id | The message ID that was reacted to | int |
 | user_id | The user ID who changed the reaction | int |
 | username | Username of the user (may be empty) | str |
+| new_reactions | List of new reactions on the message | List[Any] |
+| old_reactions | List of previous reactions on the message | List[Any] |
 | new_reactions | List of new reactions on the message | List[Any] |
 | old_reactions | List of previous reactions on the message | List[Any] |
 

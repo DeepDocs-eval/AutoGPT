@@ -12,7 +12,7 @@ The block takes user input for script, visual style, audio, and other parameters
 ## Inputs
 | Input | Description |
 |-------|-------------|
-| API Key | Your revid.ai API key for authentication |
+Generation Preset | The visual style for AI-generated content (e.g., "Leonardo", "Anime", "Realist")
 | Script | The text content for the video, including spoken narration and visual directions |
 | Ratio | The aspect ratio of the video (e.g., "9 / 16" for vertical videos) |
 | Resolution | The video resolution (e.g., "720p") |

@@ -106,7 +106,7 @@ Each branch entry includes its name and a URL to browse the repository file tree
 
 ### Outputs
 
-| Output | Description | Type |
+| credentials | GitHub credentials (OAuth token) | object | Yes |
 |--------|-------------|------|
 | error | Error message if listing branches failed | str |
 | branch | Branches with their name and file tree browser URL | Branch |
